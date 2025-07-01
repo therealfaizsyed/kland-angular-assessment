@@ -1,0 +1,191 @@
+<!-- Background Image Container -->
+<div class="background-container">
+  <div class="background-image"></div>
+</div>
+
+<!-- Main Content Wrapper -->
+<div class="content-wrapper">
+  <!-- Header with K-Land -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="assets/logo.png" alt="K-Land Logo" class="logo">
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Account Content -->
+  <div class="account-page">
+    <!-- Account Header Section -->
+    <div class="account-header-section">
+      <h1>MY ACCOUNT</h1>
+      <p class="account-subtitle">Manage Your Fun: View Tickets, Book Zones, and Track Your Adventure!</p>
+    </div>
+
+    <!-- User Profile Section -->
+    <div class="user-profile-section">
+      <div class="profile-picture-container">
+        <img [src]="profileImageUrl || 'assets/profile-placeholder.png'" alt="Profile Picture" class="profile-picture">
+      </div>
+      <div class="user-details">
+        <p class="user-name">{{firstName}} {{lastName}}</p>
+        <p class="user-phone">+{{phoneCode}} {{phoneNumber}}</p>
+        <p class="user-email">{{email}}</p>
+      </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="main-content-container">
+      <!-- Left Navigation Container -->
+      <div class="left-navigation-container">
+        <nav class="nav-menu">
+          <a routerLink="/edit-profile" class="nav-item">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" />
+            </svg>
+            <span>Edit Profile</span>
+          </a>
+          <a routerLink="/faqs" class="nav-item">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M11,18H13V16H11V18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6Z" />
+            </svg>
+            <span>FAQS</span>
+          </a>
+          <a routerLink="/contact" class="nav-item">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" />
+            </svg>
+            <span>Contact Us</span>
+          </a>
+          <a routerLink="/delete-account" class="nav-item">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z" />
+            </svg>
+            <span>Delete Account</span>
+          </a>
+          <a routerLink="/logout" class="nav-item">
+            <svg class="nav-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M16,17V14H9V10H16V7L21,12L16,17M14,2A2,2 0 0,1 16,4V6H14V4H5V20H14V18H16V20A2,2 0 0,1 14,22H5A2,2 0 0,1 3,20V4A2,2 0 0,1 5,2H14Z" />
+            </svg>
+            <span>Logout</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Right Personal Info -->
+      <div class="right-personal-info">
+        <h2>PERSONAL INFORMATION</h2>
+
+        <div class="profile-info-display">
+          <div class="profile-picture-info">
+            <div class="profile-picture-wrapper">
+              <img [src]="profileImageUrl || 'assets/profile-placeholder.png'" alt="Profile Picture" class="profile-picture-small">
+              <label class="camera-icon">
+                <input type="file" (change)="handleProfileImageUpload($event)" accept="image/*" style="display: none;">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <path fill="currentColor" d="M4,4H7L9,2H15L17,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="profile-name-email">
+              <p class="profile-name">{{firstName}} {{lastName}}</p>
+              <p class="profile-email">{{email}}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label>First Name</label>
+            <div class="form-value">{{firstName}}</div>
+          </div>
+          <div class="form-field">
+            <label>Last Name</label>
+            <div class="form-value">{{lastName}}</div>
+          </div>
+          <div class="form-field">
+            <label>Email Address</label>
+            <div class="form-value">{{email}}</div>
+          </div>
+          <div class="form-field">
+            <label>Phone Number</label>
+            <div class="form-value">+{{phoneCode}} {{phoneNumber}}</div>
+          </div>
+          
+          <!-- Password Fields -->
+          <div class="password-fields-container">
+            <div class="password-row">
+              <div class="password-field">
+                <label>Old Password</label>
+                <div class="password-input-container">
+                  <input [type]="showOldPassword ? 'text' : 'password'" [(ngModel)]="oldPassword" placeholder="Enter your current password">
+                  <span class="toggle-password" (click)="togglePasswordVisibility('oldPassword')">
+                    <svg class="eye-icon" viewBox="0 0 24 24" width="20" height="20">
+                      <path fill="currentColor" [attr.d]="showOldPassword ? eyeOffIcon : eyeIcon" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="password-field">
+                <label>New Password</label>
+                <div class="password-input-container">
+                  <input [type]="showNewPassword ? 'text' : 'password'" [(ngModel)]="newPassword" placeholder="Enter your new password">
+                  <span class="toggle-password" (click)="togglePasswordVisibility('newPassword')">
+                    <svg class="eye-icon" viewBox="0 0 24 24" width="20" height="20">
+                      <path fill="currentColor" [attr.d]="showNewPassword ? eyeOffIcon : eyeIcon" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="password-field confirm-password">
+              <label>Confirm New Password</label>
+              <div class="password-input-container">
+                <input [type]="showConfirmPassword ? 'text' : 'password'" [(ngModel)]="confirmPassword" placeholder="Confirm your new password">
+                <span class="toggle-password" (click)="togglePasswordVisibility('confirmPassword')">
+                  <svg class="eye-icon" viewBox="0 0 24 24" width="20" height="20">
+                    <path fill="currentColor" [attr.d]="showConfirmPassword ? eyeOffIcon : eyeIcon" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="save-button" (click)="saveChanges()">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <div class="quick-links">
+          <div class="links-row">
+            <a href="#">Press</a>
+            <a href="#">FAQS</a>
+            <a href="#">Contact us</a>
+            <a href="#">About us</a>
+            <a href="#">Join the team</a>
+            <a href="#">Terms & conditions</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="legal-links">
+            <a href="#">PRIVACY POLICY</a>
+            <span>Copyright © 2024 K-Land. All Rights Reserved.</span>
+          </div>
+          <div class="social-section">
+            <div class="follow-us">
+              <span>FOLLOW US</span>
+            </div>
+            <div class="presented-by">
+              <span>PRESENTED BY</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

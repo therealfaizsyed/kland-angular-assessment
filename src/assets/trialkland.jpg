@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.visitkland.com/en/login -->
+<html lang="en" data-critters-container=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>K-Land</title>
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1 ,maximum-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.visitkland.com/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://www.visitkland.com/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.visitkland.com/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.visitkland.com/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.visitkland.com/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.visitkland.com/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://www.visitkland.com/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.visitkland.com/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.visitkland.com/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.visitkland.com/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.visitkland.com/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://www.visitkland.com/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.visitkland.com/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.visitkland.com/favicon/manifest.json">
+
+  <link rel="preload" href="https://www.visitkland.com/assets/fonts/ivy-presto/IvyPresto-BoldItalic.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="https://www.visitkland.com/assets/fonts/janna-lt/JannaLt-Bold.woff2" as="font" crossorigin="anonymous">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="application-name" content="K-Land">
+  <meta name="title" content="K-Land | Play. Have Fun. Live the Moment!">
+  <meta name="subtitle" content="Your Ultimate Destination for Fun and Adventure">
+  <meta name="description" content="Welcome to K-Land, the amusement park where every moment is filled with excitement, adventure, and joy. Enjoy thrilling rides, amazing attractions, and unforgettable experiences.">
+  <!-- <meta property="og:image" content="/assets/Icon/logo.svg" /> -->
+  <meta property="og:site_name" content="K-Land">
+  <meta property="og:locale:locale" content="en_us">
+  <meta property="og:locale:alternate" content="ar">
+  <meta property="og:type" content="website">
+  <!-- <meta property="og:image" content="/assets/Icon/logo.svg" /> -->
+  <meta property="og:image:width" content="">
+  <meta property="og:image:height" content="">
+  <meta property="og:url" content="https://www.visitkland.com/">
+
+  <meta name="keywords" content="K Land, Visit K Land, Travel K Land, K Land Tourism, K Land Attractions, K Land Vacation, Explore K Land, Things to do in K Land, Tourist Spots in K Land, K Land Adventure, K Land Sightseeing, K Land Beaches, K Land Mountains, Cultural Tours K Land, Travel Destinations in K Land, Best Places in K Land, Family Trips K Land, Solo Travel K Land, Budget Travel K Land">
+
+  <meta name="twitter:title" content="K-Land">
+  <meta name="twitter:description" content="Welcome to K-Land, the amusement park where every moment is filled with excitement, adventure, and joy. Enjoy thrilling rides, amazing attractions, and unforgettable experiences.">
+  <meta name="twitter:image" content="assets/images/logo.png" width="150px" height="150px">
+<style>:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }html{scrollbar-width:thin;scrollbar-color:#1A908B #f5f5f5;scrollbar-gutter:stable}</style><link rel="stylesheet" href="./trialkland_files/styles-YEQDIXMJ.css" media="all" onload="this.media=&#39;all&#39;"><noscript><link rel="stylesheet" href="styles-YEQDIXMJ.css"></noscript><style>.scroll-style[_ngcontent-ng-c2202752618]{scroll-behavior:smooth;-ms-overflow-style:none;scrollbar-width:none}.scroll-style[_ngcontent-ng-c2202752618]::-webkit-scrollbar{display:none}</style></head>
+<body>
+  <app-root _nghost-ng-c2665447641="" ng-version="18.2.3"><div _ngcontent-ng-c2665447641="" class="min-h-screen flex flex-col items-stretch bg-themeColor" dir="ltr"><!----><main _ngcontent-ng-c2665447641="" class="flex-grow min-h-[90vh]"><div _ngcontent-ng-c2665447641="" class="opacity-100"><router-outlet _ngcontent-ng-c2665447641=""></router-outlet><app-login _nghost-ng-c2202752618="" class="ng-star-inserted"><div _ngcontent-ng-c2202752618="" role="dialog" aria-labelledby="isLoginPopupOpen" aria-modal="true" class="back-image"><div _ngcontent-ng-c2202752618="" class="popup-css"><section _ngcontent-ng-c2202752618="" class="rounded-2xl p-6 md:p-8 flex flex-col overflow-auto max-h-vh90 bg-white"><div _ngcontent-ng-c2202752618="" class="pb-4 animate md:pb-6" style="--index: 0;"><a _ngcontent-ng-c2202752618="" class="flex w-fit mx-auto justify-center" href="https://www.visitkland.com/en/home"><img _ngcontent-ng-c2202752618="" src="./trialkland_files/logo.png" alt="Logo" class="w-26"></a></div><div _ngcontent-ng-c2202752618="" class="text-center animate pb-4 md:pb-6" style="--index: 1;"><p _ngcontent-ng-c2202752618="" class="text-black font-customIvyRegular tracking-wide text-base md:text-lg">ENTER YOUR EMAIL TO CONTINUE</p></div><div _ngcontent-ng-c2202752618="" class="scroll-style flex-1 overflow-y-auto"><div _ngcontent-ng-c2202752618="" class="animation-div"><form _ngcontent-ng-c2202752618="" novalidate="" action="https://www.visitkland.com/" class="ng-untouched ng-pristine ng-invalid"><div _ngcontent-ng-c2202752618="" class="mb-5 animate" style="--index: 2;"><input _ngcontent-ng-c2202752618="" type="email" inputmode="email" id="email" formcontrolname="email" class="input-box rounded-md py-2.5 ng-untouched ng-pristine ng-invalid" placeholder="Email" fdprocessedid="kakik"><!----></div><div _ngcontent-ng-c2202752618="" class="mb-5 animate" style="--index: 3;"><div _ngcontent-ng-c2202752618="" class="relative"><input _ngcontent-ng-c2202752618="" type="text" id="password" formcontrolname="password" class="input-box rounded-md py-2.5 pe-10 ng-untouched ng-pristine ng-invalid" placeholder="Password" fdprocessedid="59y53"><span _ngcontent-ng-c2202752618="" appshowpassword="" class="absolute top-1/2 -translate-y-1/2 end-3 z-10"><img _ngcontent-ng-c2202752618="" src="./trialkland_files/eye-icon.svg" alt="" class="w-4 cursor-pointer"></span></div><!----><div _ngcontent-ng-c2202752618="" class="w-full flex justify-end mt-2"><a _ngcontent-ng-c2202752618="" class="text-sm font-customRobotoMedium cursor-pointer"> Forgot password? </a></div></div><button _ngcontent-ng-c2202752618="" type="submit" class="w-full animate mx-auto py-3 theme-button mb-4" fdprocessedid="9fxlra" style="--index: 4;"> Login </button></form><p _ngcontent-ng-c2202752618="" class="text-textGray animate w-11/12 xl:w-4/5 mx-auto pt-4 md:pt-6 text-center text-sm font-customRobotoMedium" style="--index: 6;">Don't have an account? <span _ngcontent-ng-c2202752618="" class="text-themeColor cursor-pointer">Create Account</span></p></div></div></section></div></div></app-login><!----></div><!----></main><!----></div></app-root>
+  <script src="./trialkland_files/lottie.min.js.download"></script>
+<link rel="modulepreload" href="https://www.visitkland.com/chunk-IZ7GT3FY.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-RXGWPQYN.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-J6HOU4V6.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-YTLKQ4E3.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-I5AMZNH6.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-ZWFH45YV.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-4TVUTIUV.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-ZDUIZMGT.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-7D72K2JO.js"><link rel="modulepreload" href="https://www.visitkland.com/chunk-HZ7TV2CN.js"><script src="./trialkland_files/polyfills-SCHOHYNV.js.download" type="module"></script><script src="./trialkland_files/main-GYWAP7HR.js.download" type="module"></script>
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
